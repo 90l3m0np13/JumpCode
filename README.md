@@ -54,6 +54,7 @@ msfconsole(/multi/handler)> use/windows/shell/reverse_tcp
 
 #### **7. Finalmente abrir el scrip malicioso en la máquina atacada**
 
+![image](https://github.com/90l3m0np13/JumpCode/blob/main/shell.png)
 
 #### **5. Técnicas de Entrega (Bypass SmartScreen)**
 • **Firma digital**: Usa signtool con certificados robados/auto-firmados  
